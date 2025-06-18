@@ -36,3 +36,40 @@ main{
     color: white;
     overflow-y: auto;
 }
+
+/* fine struttura */
+
+/* contenuto sidebar */
+
+
+.logo{
+    width: 80%;
+    margin: 20px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+
+
+.util-list{
+    margin: 20px;
+}
+.util-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.util-list li{
+    padding-bottom: 20px;
+    font-size: 17px;
+    
+}
