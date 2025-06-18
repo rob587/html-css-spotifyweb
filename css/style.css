@@ -6,7 +6,7 @@
 
 .bg-color{
     background-color:#090a12 ;
-    height: 120px;
+    height: 100px;
 }
 
 
@@ -25,7 +25,7 @@ main{
 
 #sidebar{
     width: 250px;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     height: 100%;
 }
 
