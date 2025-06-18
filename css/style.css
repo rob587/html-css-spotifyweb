@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color{
+    background-color:#090a12 ;
+    height: 120px;
+}
+
+
+
+footer{
+    height: 100px;
+    background-color: goldenrod;
+}
+
+main{
+    background-color: silver;
+    height: calc(100vh - 100px);
+    display:flex;
+}
+
+
+#sidebar{
+    width: 250px;
+    background-color: red;
+    height: 100%;
+}
+
+#content{
+    height: 100%;
+    width: calc(100vw - 250px);
+    background-color: blue;
+    color: white;
+    overflow-y: auto;
+}
