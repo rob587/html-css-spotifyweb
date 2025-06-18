@@ -143,3 +143,23 @@ hr{
 }
 
 
+/* fine sidebar */
+
+
+/* header button */
+
+.top-bar{
+    text-align: right;
+    padding-top: 30px;
+}
+
+.upg{
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    background-color:#090a12 ;
+    color: white;
+    border-color: white;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 600;
+}
