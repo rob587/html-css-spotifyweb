@@ -30,7 +30,7 @@ display: flex;
 
 footer{
     height: 100px;
-    background-color: goldenrod;
+    background-color: #282929;
 }
 
 main{
@@ -174,7 +174,7 @@ hr{
 .second-col{
     display: flex;
     justify-content: center;
-   margin-right: 200px;
+   
 }
 
 .first-side{
@@ -188,6 +188,19 @@ hr{
 
 .text-info { 
     margin: 12px;
+}
+
+.name {
+    color: white;
+}
+
+.music {
+    color: white;
+}
+
+
+.player-time{
+    color:white
 }
 
 
@@ -248,7 +261,26 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
     gap: 20px;
     font-size: 18px;
     width: 100%;
+}
+
+/* fine icone */
+
+/* terza colonna  */
+
+.third-col{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.w-400{
+    width: 200px;
+}
+
+.new-icons{
+    color: white;
 }
