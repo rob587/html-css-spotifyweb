@@ -165,10 +165,16 @@ hr{
 
 /* inizio footer */
 
-.col{
+.first-col{
     display: flex;
     justify-content: space-between;
     align-items:center ;
+}
+
+.second-col{
+    display: flex;
+    justify-content: center;
+   margin-right: 200px;
 }
 
 .first-side{
@@ -185,3 +191,50 @@ hr{
 }
 
 
+.player-controller-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.player-bar{
+    width: 600px;
+    background-color: grey;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    position: relative;
+}
+
+.elapsed-time{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: silver;
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.controller-point{
+    position: absolute;
+    top: 50%;
+    right:0 ;
+    display: none;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    background-color: silver;
+    border-radius: 50%;
+    border: 1px solid black
+}
+
+.player-controller-time:hover .elapsed-time{
+    background-color: green;
+}
+
+.player-controller-time:hover .controller-point{
+    display: block;
+    cursor: pointer;
+}
