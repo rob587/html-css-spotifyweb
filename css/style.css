@@ -13,15 +13,18 @@ body{
     height: 100px;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 
 .d-flex{
-    display: flex;
-    flex-wrap: wrap;
+display: flex;
+}
+
+.jc-spbw{
+    justify-content: space-between;
+}
+
+.b-black{
+    border: black 1px solid;
 }
 
 
@@ -80,6 +83,7 @@ main{
 .top-bar h2 {
     margin-left: 40px;
     padding-bottom: 10px;
+    color: white;
 }
 
 .top-bar button{
@@ -156,3 +160,28 @@ hr{
     font-size: 16px;
     font-weight: 600;
 } 
+
+/* fine header */
+
+/* inizio footer */
+
+.col{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.first-side{
+    display: flex;
+    margin: 10px;
+}
+
+.first-side img{
+    width: 70px;
+}
+
+.text-info { 
+    margin: 12px;
+}
+
+
