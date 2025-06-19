@@ -196,6 +196,7 @@ hr{
     align-items: center;
     justify-content: center;
     width: 90%;
+   flex-wrap: wrap;
 }
 
 .player-bar{
@@ -237,4 +238,17 @@ hr{
 .player-controller-time:hover .controller-point{
     display: block;
     cursor: pointer;
+}
+
+/* fine video player */
+
+/* inizio icone video player */
+
+.icons-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    width: 100%;
 }
