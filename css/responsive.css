@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  /* Sidebar */
+  #sidebar {
+    width: 230px;
+  }
+
+  #content {
+    width: calc(100% - 230px);
+  }
+
+  /* top bar */
+  .top-bar ul {
+    margin-left: 20px;
+    gap: 20px;
+  }
+
+  /* sezione row */
+  .row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .col {
+    width: calc(100% / 4 - 15px);
+  }
+
+  .col .circle {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* titoli e testi */
+  .title-play {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .little-grey {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .title-sec {
+    padding-left: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .title-sec h2 {
+    font-size: 16px;
+  }
+
+  /* sezione footer */
+  footer {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .first-col,
+  .second-col,
+  .third-col {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-col {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  .second-col .player-bar {
+    width: 400px;
+  }
+
+  .third-col .player-bar.w-400 {
+    width: 150px;
+  }
+
+  /* tasto upg */
+  .lf-bar {
+    text-align: right;
+    padding: 20px 20px 0 0;
+  }
+
+  .upg {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}
+
