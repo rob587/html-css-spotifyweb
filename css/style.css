@@ -24,6 +24,8 @@ display: flex;
 footer{
     height: 100px;
     background-color: #282929;
+    position: fixed;
+    width: 100%;
 }
 
 main{
