@@ -44,7 +44,7 @@ main{
 #content{
     height: 100%;
     width: calc(100vw - 250px);
-    background-color: blue;
+    background-color: #141823;
     color: white;
     overflow-y: auto;
 }
@@ -329,6 +329,28 @@ align-items: center;
 .card img{
     width: 100%;
 }
+
+.card h3{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+
+.little-grey{
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+.circle{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* contenuto finito */
+
 
 
 
