@@ -13,8 +13,6 @@ body{
     height: 100px;
 }
 
-
-
 .d-flex{
 display: flex;
 }
@@ -193,6 +191,10 @@ hr{
     color: white;
 }
 
+.second-side i{
+    color: white;
+}
+
 
 .player-time{
     color:white
@@ -338,6 +340,7 @@ align-items: center;
     text-align: center;
 }
 
+
 .little-grey{
     font-size: 14px;
     color: #a3a3a3;
@@ -350,6 +353,86 @@ align-items: center;
 }
 
 /* contenuto finito */
+
+/* hover section */
+
+
+.top-bar a:hover{
+color: white;
+}
+
+.top-bar button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.top-bar li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.bottom-bar span:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.music:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.second-side i:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.icons-player i:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.new-icons i:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.upg:hover{
+    border-color: green;
+    color: green;
+    cursor: pointer;
+}
+
+.title-sec h2:hover{
+    text-decoration: underline;
+    color: green; 
+    transition: ease-in-out 1s;
+    cursor: pointer;
+}
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card i {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-80%);
+    font-size: 30px;
+    color: green;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover i {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* fine effetto hover */
+
 
 
 
