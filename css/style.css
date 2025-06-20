@@ -23,11 +23,6 @@ display: flex;
     justify-content: space-between;
 }
 
-.b-black{
-    border: black 1px solid;
-}
-
-
 footer{
     height: 100px;
     background-color: #282929;
@@ -284,3 +279,56 @@ align-items: center;
 .new-icons{
     color: white;
 }
+
+/* fine footer */
+
+
+
+/* inizio layout main content */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+
+.col{
+    width: calc(100% / 7);
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+/* title section */
+
+
+.title-sec{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.title-play{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+
