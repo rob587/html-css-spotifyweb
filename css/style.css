@@ -419,7 +419,7 @@ color: white;
     position: absolute;
     top: 50%;
     left: 45%;
-    transform: translateY(-80%);
+    transform: translateY(-90%);
     font-size: 30px;
     color: green;
     opacity: 0;
