@@ -61,6 +61,8 @@ main{
 
 .top-bar{
     color: #a3a3a3;
+    height: calc(100% - 100px);
+    overflow-y: auto;
 }
 
 .top-bar ul{
@@ -132,6 +134,7 @@ hr{
 .bottom-bar{
     margin: 40px 0 20px 20px;
     color:#a3a3a3;
+    height: 100px;
 } 
 
 
