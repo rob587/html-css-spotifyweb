@@ -15,6 +15,7 @@ body{
 
 .d-flex{
 display: flex;
+justify-content: space-between;
 }
 
 .jc-spbw{
@@ -171,8 +172,9 @@ hr{
 
 .second-col{
     display: flex;
-    justify-content: center;
+        justify-content: center;
    
+
 }
 
 .first-side{

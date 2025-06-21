@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   /* Sidebar */
   #sidebar {
     width: 230px;
@@ -12,6 +12,17 @@
   .top-bar ul {
     margin-left: 20px;
     gap: 20px;
+  }
+
+  .top-bar h2{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+  }
+
+  .add-btn{
+    margin: 0 0 10px 18px;
   }
 
   /* sezione row */
@@ -54,29 +65,25 @@
   footer {
     flex-direction: row;
     align-items: center;
-    padding: 0 15px;
+    padding:  0 2px;
   }
 
-  .first-col,
-  .second-col,
-  .third-col {
+  .second-col {
     flex: 1;
     align-items: center;
     justify-content: center;
   }
 
-  .first-col {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 10px;
-  }
+    .first-side img{
+    width: 50px;
+}
 
   .second-col .player-bar {
-    width: 400px;
+    width: 130px;
   }
 
-  .third-col .player-bar.w-400 {
-    width: 150px;
+  .third-col .player-bar {
+    width: 100px;
   }
 
   /* tasto upg */
@@ -89,5 +96,5 @@
     font-size: 14px;
     padding: 10px 25px;
   }
-}
+
 
