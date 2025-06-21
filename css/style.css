@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'ubuntu';
+    font-family: 'Ubuntu';
 }
 
 .bg-color{
@@ -93,7 +93,7 @@ main{
 
 
 
-.add-btn {
+.top-bar .add-btn {
     margin: 0 0 10px 40px;
     
 }
@@ -282,7 +282,7 @@ align-items: center;
 }
 
 .w-400{
-    width: 200px;
+    width: 150px;
 }
 
 .new-icons{
@@ -303,12 +303,17 @@ align-items: center;
 .row{
     display: flex;
     flex-wrap: wrap;
+
+    
+}
+
+.g-20{
     gap: 30px;
 }
 
 
 
-.col{
+.row .col{
     width: calc(100% / 7);
 }
 
@@ -336,7 +341,7 @@ align-items: center;
 }
 
 .card img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .card h3{
@@ -441,6 +446,172 @@ color: white;
 /* fine effetto hover */
 
 
+/* responsive max-768 */
+
+@media all and (max-width: 768px) {
+  /* Sidebar */
+  #sidebar {
+    width: 230px;
+  }
+
+  #content {
+    width: calc(100% - 230px);
+  }
+
+  /* top bar */
+  .top-bar ul {
+    margin-left: 20px;
+    gap: 20px;
+  }
+
+  .top-bar h2{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+  }
+
+   .top-bar .add-btn{
+    margin: 0 0 10px 18px;
+  }
+
+  /* sezione row */
+  .row {
+    flex-wrap: wrap;
+   
+  }
+
+
+
+  .row .col {
+    width: calc(100% / 5 );
+    height: 250px;
+  }
+
+  .col .circle {
+    max-width: 100%;
+  }
+
+  /* titoli e testi */
+  .title-play {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  .little-grey {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .title-sec {
+    flex-wrap: wrap;
+    font-size: 9px;
+  }
+
+
+  /* sezione footer */
+  footer {
+    flex-direction: row;
+    align-items: center;
+    padding:  0 2px;
+  }
+
+  
+
+  .second-col {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+    .first-side img{
+    width: 50px;
+}
+
+  .second-col .player-bar {
+    width: 150px;
+  }
+
+  .third-col .player-bar {
+    width: 130px;
+  }
+
+
+  @media all and (max-width:700px){
+    .second-col .player-bar {
+    width: 120px;
+  }
+
+  .third-col .player-bar {
+    width: 90px;
+  }
+  }
+
+
+  @media all and (max-width:620px ){
+    .row .col{
+        width: calc(100% / 3);
+        margin-left: 30px;
+ 
+    }
+
+      .third-col .player-bar {
+    width: 50px;
+  }
+  }
+
+
+  @media all and (max-width:607px ){
+    .row .col{
+        width: calc(100% / 3);
+    }
+
+    #sidebar li{
+        display: none;
+    }
+
+       #sidebar button{
+        display: none;
+    }
+
+       #sidebar span{
+        display: none;
+    }
+
+       #sidebar .tt{
+        display: none;
+
+    }
+
+       #sidebar img{
+        display: none;
+    }
+
+       #sidebar{
+        width: 15%;
+    }
+
+       #sidebar li{
+        display: none;
+    }
+
+    #content{
+        width:100%;
+    }
+
+   .container .title-sec{
+    font-size: 15px;
+   }
+
+   .top-bar{
+    background-image: url(/img/logo-small.svg);
+    background-repeat: no-repeat;
+    margin: 16px;
+    width: 50%;
+   }
+
+ 
+  }
 
 
 
