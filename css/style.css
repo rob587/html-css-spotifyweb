@@ -13,6 +13,8 @@ body{
     height: 100px;
 }
 
+
+
 .d-flex{
 display: flex;
 justify-content: space-between;
@@ -28,6 +30,8 @@ footer{
     position: fixed;
     width: 100%;
 }
+
+
 
 main{
     background-color: silver;
@@ -89,6 +93,10 @@ main{
     margin-right:5px ;
     background-color: #a3a3a3;
     border: transparent;
+}
+
+.mobile-icon{
+    display: none;
 }
 
 
@@ -341,9 +349,17 @@ align-items: center;
     font-weight: 500;
 }
 
+.card{
+   box-shadow: 0 4px 20px rgba(0, 255, 0, 0.15);
+   
+
+}
+
 .card img{
     max-width: 100%;
 }
+
+
 
 .card h3{
     text-align: center;
@@ -382,6 +398,7 @@ color: white;
 .top-bar li:hover{
     color: white;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .bottom-bar span:hover{
@@ -590,10 +607,8 @@ color: white;
     background-image: url(/img/logo-small.svg);
     background-repeat: no-repeat;
     margin: 16px;
-    width: 50%;
+    width: 50px;
    }
-
- 
   }
 
 }
